@@ -12,13 +12,12 @@ class Capstone extends Component {
     render() {
         return (
             <div className="capstone">
-
                 <p> 
                     Images captured from my Capstone project - Mortgage Interest Rate Estimator
                 </p>
-                <div>
-                    <img src={capstoneIntro} alt="the opening screen from the capstone" width="550" />
-                    <img src={capstoneResults} alt="the results screen from the capstone" width="550" />
+                <div className="capstone__scr">
+                    <img className="capstone__scr-intro" src={capstoneIntro} alt="the opening screen from the capstone" width="550" />
+                    <img className="capstone__scr-result" src={capstoneResults} alt="the results screen from the capstone" width="550" />
                 </div>
             </div>
         );

@@ -9,6 +9,8 @@ import './App.scss';
 // import application components
 import Capstone from './components/Capstone/Capstone';
 import Header from './components/Header/Header';
+import PairProgram from './components/PairProgramming/PairProgram';
+
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
       </Helmet>
       <Header />
       <Capstone />
+      <PairProgram />
     </div>
   );
 }
