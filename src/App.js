@@ -10,9 +10,9 @@ import './App.scss';
 import Capstone from './components/Capstone/Capstone';
 import Header from './components/Header/Header';
 import PairProgram from './components/PairProgramming/PairProgram';
+import Footer from './components/Footer/Footer';
 
-
-function App() {
+export default function App() {
   return (
     <div className="App">
       <Helmet>
@@ -22,8 +22,7 @@ function App() {
       <Header />
       <Capstone />
       <PairProgram />
+      <Footer />
     </div>
   );
 }
-
-export default App;

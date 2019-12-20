@@ -1,0 +1,27 @@
+.footer {
+
+    &__container { 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    &__sm-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    &__copywrite {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+
+    &__contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+}
