@@ -10,6 +10,7 @@ import './App.scss';
 import Capstone from './components/Capstone/Capstone';
 import Header from './components/Header/Header';
 import PairProgram from './components/PairProgramming/PairProgram';
+import FinServices from './components/FinServices/FinServices';
 import Footer from './components/Footer/Footer';
 
 export default function App() {
@@ -22,6 +23,7 @@ export default function App() {
       <Header />
       <Capstone />
       <PairProgram />
+      <FinServices />
       <Footer />
     </div>
   );

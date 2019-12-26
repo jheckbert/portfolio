@@ -1,0 +1,97 @@
+.finsrvcs {
+    
+    &__container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+    }
+    
+    &__box-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        background-image: url("../images/finservices-background.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 800px;
+        filter: blur(4px) opacity(.2);
+
+    }
+
+    &__box {
+        width: 35%;
+        height: 250px;
+        color: black;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        margin-top: 5%;
+        background: linear-gradient(217deg, rgba(203, 210, 218, 0.747), rgba(60, 99, 228, 0) 70.71%), 
+                    linear-gradient(127deg, rgba(223, 232, 242, 0.8), rgba(90, 160, 224, 0) 70.71%), 
+                    linear-gradient(336deg, rgba(108, 108, 118, 0.8), rgba(0, 0, 255, 0) 70.71%);
+        opacity: 100%;
+        
+    }
+
+    &__title {
+        font-size: 2rem;
+    }
+
+    &__banner {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        height: px;
+        color: black;
+        // border: 2px solid black;
+        // border-radius: 8px;
+        // margin-left: 5%;
+        // background: linear-gradient(217deg, rgba(203, 210, 218, 0.747), rgba(60, 99, 228, 0) 70.71%), 
+        //             linear-gradient(127deg, rgba(223, 232, 242, 0.8), rgba(90, 160, 224, 0) 70.71%), 
+        //             linear-gradient(336deg, rgba(108, 108, 118, 0.8), rgba(0, 0, 255, 0) 70.71%);
+        position: absolute;
+        top: 2000px; 
+    
+    }
+
+    &__box-title {
+        font-size: 2.5rem;
+        color: black;
+        opacity: 100%;
+        width: 100%;
+    }
+
+    &__box-content {
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 1.25rem;
+        color: midnightblue;
+    }
+
+
+}
+
+.box1 {
+    position: absolute;
+    top: 2100px;
+    left: 125px;
+}
+.box2 {
+    position: absolute;
+    top: 2100px;
+    left: 800px;
+}
+.box3 {
+    position: absolute;
+    top: 2400px;
+    left: 125px;
+}
+.box4 {
+    position: absolute;
+    top: 2400px;
+    left: 800px;
+}
