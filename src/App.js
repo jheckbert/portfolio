@@ -11,6 +11,7 @@ import Capstone from './components/Capstone/Capstone';
 import Header from './components/Header/Header';
 import PairProgram from './components/PairProgramming/PairProgram';
 import FinServices from './components/FinServices/FinServices';
+import ContactForm from './components/ContactForm/ContactForm';
 import Footer from './components/Footer/Footer';
 
 export default function App() {
@@ -24,6 +25,7 @@ export default function App() {
       <Capstone />
       <PairProgram />
       <FinServices />
+      <ContactForm />
       <Footer />
     </div>
   );
