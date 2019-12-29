@@ -1,13 +1,24 @@
 .footer {
     
 
+    @media screen and (max-width: 599px) {
+        &__container { 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: white;
+            height: 75px;
+        }}
+    
+    
+    @media screen and (min-width: 600px) {
     &__container { 
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         background-color: white;
         height: 75px;
-    }
+    }}
 
     &__sm-links {
         display: flex;
@@ -17,12 +28,10 @@
         margin-top: 30px;
         margin-left: 10px;
     
-
     }
 
     &__copywrite {
         display: flex;
-        flex-direction: row;
         justify-content: center;
         margin-top: 15px;
 

@@ -63,14 +63,58 @@
         top: 2100px; 
     
     }
-    @media screen and (max-width: 999px) {
+
+    @media screen and (max-width: 400px) {
+        &__box-title {
+            font-size: 2.5rem;
+            color: black;
+            opacity: 100%;
+            width: 100%;
+            position: absolute;
+            top: 400px;    
+        }}
+    
+    @media screen and (min-width: 401px) and (max-width: 599px) {
     &__box-title {
         font-size: 2.5rem;
         color: black;
         opacity: 100%;
         width: 100%;
+        position: absolute;
+        top: 600px;    
     }}
-
+    
+    @media screen and (min-width: 600px) and (max-width: 767px) {
+    &__box-title {
+        font-size: 2.5rem;
+        color: black;
+        opacity: 100%;
+        width: 100%;
+        position: absolute;
+        top: 75px;    
+    }}
+    
+    // @media screen and (max-width: 999px) {
+    // &__box-title {
+    //     font-size: 2.5rem;
+    //     color: black;
+    //     opacity: 100%;
+    //     width: 100%;
+    //     position: absolute;
+    //     top: 400px;    
+    // }}
+        
+    @media screen and (min-width: 768px) and (max-width: 999px) {
+    &__box-title {
+        font-size: 2.5rem;
+        color: black;
+        opacity: 100%;
+        width: 100%;
+        position: absolute;
+        top: -300px;    
+    }}
+            
+        
     @media screen and (min-width: 1000px) {
     &__box-title {
         font-size: 2.5rem;
@@ -78,7 +122,7 @@
         opacity: 100%;
         width: 100%;
         position: absolute;
-        top: -50px;
+        top: -200px;
     }}
 
     @media screen and (min-width: 1400px) {
@@ -92,12 +136,12 @@
     }}
     
     @media screen and (max-width: 500px) {
-        &__box-content {
-            margin-left: 5%;
-            margin-right: 5%;
-            font-size: .95rem;
-            color: midnightblue;
-        }}
+    &__box-content {
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: .95rem;
+        color: midnightblue;
+    }}
     
     @media screen and (min-width: 1025px) {
     &__box-content {
@@ -116,14 +160,24 @@
     
     }}
 
-    @media screen and (max-width: 599px) {
+    @media screen and (max-width: 400px) {
+        &__box-placement {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            position: absolute;
+            top: 2600px;
+        }}
+    
+    @media screen and (min-width: 401px) and (max-width: 599px) {
     &__box-placement {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-evenly;
         position: absolute;
-        top: 2600px;
+        top: 2750px;
     }}
     
     @media screen and (min-width: 600px) {
@@ -133,11 +187,22 @@
         flex-wrap: wrap;
         justify-content: space-around;
         position: absolute;
-        top: 1800px;
+        top: 2250px;
     }}
 
+    @media screen and (min-width: 768px) {
+    &__box-placement {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        position: absolute;
+        top: 1900px;
+    }}
+    
+    
     @media screen and (min-width: 1000px) {
-        &__box-placement {
+    &__box-placement {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
