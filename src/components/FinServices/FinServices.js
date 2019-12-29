@@ -17,6 +17,7 @@ class FinServices extends Component {
                 </div>
                 <div className="finsrvcs__box-container">
                 </div>
+                    <div className="finsrvcs__box-placement">
                     <div className="finsrvcs__box box1">
                         <h3 className="finsrvcs__title">Residential Mortgages</h3>
                         <p className="finsrvcs__box-content">Achieve your home ownership dreams. <a href="https://www.mortgageboss.ca/leadgeneration/add_lead.aspx?Agent_ID=15966" target="blank">Apply today</a> to see how the Angel Mortgage team can help your family.</p>
@@ -33,7 +34,7 @@ class FinServices extends Component {
                         <h2 className="finsrvcs__title">Credit Coaching</h2>
                         <p className="finsrvcs__box-content">Looking for solutions to your credit issues? Debt collectors calling you every day? Now might be the time to learn more about how the team at <a href="https://www.angelmortgage.ca" target="blank">Angel Mortgage</a> can help.</p>
                     </div>
-                
+                    </div>
           </>  
         );
     }

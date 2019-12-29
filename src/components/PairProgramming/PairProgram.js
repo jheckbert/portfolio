@@ -21,8 +21,8 @@ export default class PairProgram extends Component {
                                 Our first choice for a project was the number of incorrect statements and falsehoods shared by a certain US president - but the list was too large.  
                             </p>
                         </div>
-                        <div className="team-prog__slide">
-                            <img src = {slide} alt = "slide shot of our paired programming challenge" width = "550" />
+                        <div>
+                            <img className="team-prog__slide" src = {slide} alt = "slide shot of our paired programming challenge" />
                         </div>
                     </div>     
             </div>

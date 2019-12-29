@@ -11,25 +11,56 @@
         padding-top: 50px;
     }
 
-    &__container {        
+    @media screen and (max-width: 767px) { 
+        &__container {        
+            display: flex;
+            flex-direction: column;
+        }}   
+
+    @media screen and (min-width: 768px) { 
+        &__container {        
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-    }    
-    
+    }}    
+        
+    @media screen and (max-width: 767px) { 
     &__intro {
         display: block;
         margin-right: 5px;
-        width: 35%;
-        margin-top: 12.5%;
-    }
+        margin-left: 10%;
+        width: 80%;
+    }}
 
+    @media screen and (min-width: 768px) { 
+    &__intro {
+        display: block;
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 50%;
+        margin-top: 2%;
+    }}
+
+    @media screen and (min-width: 1440px) { 
+    &__intro {
+        font-size: 1.5rem;
+    }}
+    
+    @media screen and (max-width: 767px) { 
     &__slide {
         display: block;
-        margin-left: 5px;
-        width:  25%;
+        margin-left: 10%;
+        width:  75%;
         margin-right: 10%;
         margin-bottom: 5%;
-    }
+    }}
 
+    @media screen and (min-width: 768px) { 
+    &__slide {
+        display: block;
+        margin-left: 10%;
+        width:  75%;
+        margin-right: 10%;
+        margin-bottom: 5%;
+    }}
 }
