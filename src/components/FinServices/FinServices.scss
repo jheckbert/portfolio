@@ -1,9 +1,17 @@
 .finsrvcs {
+
+    
+                
     
     &__container {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        background: linear-gradient(217deg, rgba(203, 210, 218, 0.747), rgba(60, 99, 228, 0) 70.71%), 
+                    linear-gradient(127deg, rgba(25, 83, 150, 0.8), rgb(33, 157, 105) 70.71%), 
+                    linear-gradient(336deg, rgba(243, 80, 4, 0.8), rgba(25, 83, 150, 0.8) 70.71%); 
+        margin-top: -20px;
+
         
     }
     
@@ -12,13 +20,13 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
-        background-image: url("../images/finservices-background.jpg");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
         width: 100%;
         height: 800px;
-        filter: blur(4px) opacity(.2);
+        background: linear-gradient(217deg, rgba(203, 210, 218, 0.747), rgba(60, 99, 228, 0) 70.71%), 
+                    linear-gradient(127deg, rgba(25, 83, 150, 0.8), rgb(33, 157, 105) 70.71%), 
+                    linear-gradient(336deg, rgba(243, 80, 4, 0.8), rgba(25, 83, 150, 0.8) 70.71%); 
+        margin-top: -20px;
+        padding-top: 90px;
 
     }
 
@@ -47,12 +55,6 @@
         width: 100%;
         height: px;
         color: black;
-        // border: 2px solid black;
-        // border-radius: 8px;
-        // margin-left: 5%;
-        // background: linear-gradient(217deg, rgba(203, 210, 218, 0.747), rgba(60, 99, 228, 0) 70.71%), 
-        //             linear-gradient(127deg, rgba(223, 232, 242, 0.8), rgba(90, 160, 224, 0) 70.71%), 
-        //             linear-gradient(336deg, rgba(108, 108, 118, 0.8), rgba(0, 0, 255, 0) 70.71%);
         position: absolute;
         top: 2100px; 
     
@@ -73,7 +75,6 @@
     }
 
 
-<<<<<<< HEAD
     @media screen and (min-width: 1400px) {
     &__box-placement {
         display: flex;
@@ -83,27 +84,5 @@
         position: relative;
         top: -750px;
     }}
-=======
->>>>>>> parent of 12de479... responsiveness in place for all but the contact page
 }
 
-.box1 {
-    position: absolute;
-    top: 2200px;
-    left: 125px;
-}
-.box2 {
-    position: absolute;
-    top: 2200px;
-    left: 800px;
-}
-.box3 {
-    position: absolute;
-    top: 2500px;
-    left: 125px;
-}
-.box4 {
-    position: absolute;
-    top: 2500px;
-    left: 800px;
-}
