@@ -1,6 +1,6 @@
 import React from 'react';
 import {Helmet} from 'react-helmet';
-import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
+// import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
 
 
 // import styling
@@ -19,7 +19,8 @@ export default function App() {
     <div className="App">
       <Helmet>
           <meta charSet="utf-8" />
-          <title>John Heckbert - Hot New Web Developer in York Region</title>
+          <meta name="keywords" content="'web development', 'web developer', 'York Region', GTA, 'mortgage broker', mortgage'" />
+          <title>John Heckbert - Exciting New Web Developer in York Region</title>
       </Helmet>
       <Header />
       <Capstone />
