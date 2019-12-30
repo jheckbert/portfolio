@@ -1,0 +1,92 @@
+.header {
+    
+    &__container {
+        background-image: url("../images/Toronto-skyline-sunrise.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 800px;
+        filter: blur(0px) opacity(.5);
+        
+    }
+    
+    &__banner {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        height: 250px;
+        color: black;
+        // border: 2px solid black;
+        // border-radius: 8px;
+        // margin-left: 5%;
+        background: linear-gradient(217deg, rgba(203, 210, 218, 0.747), rgba(60, 99, 228, 0) 70.71%), 
+                    linear-gradient(127deg, rgba(223, 232, 242, 0.8), rgba(90, 160, 224, 0) 70.71%), 
+                    linear-gradient(336deg, rgba(108, 108, 118, 0.8), rgba(0, 0, 255, 0) 70.71%);
+        position: absolute;
+        top: 35%; 
+        
+    }
+
+    &__blink-white {
+        font-size: medium;
+        position: absolute;
+        top: 12%;
+        left: 49.7%;
+        animation: blinkingWhite 0.8s infinite;
+        color: white;
+    }
+
+    &__blink-red {
+        font-size: medium;
+        position: absolute;
+        top: 57%;
+        left: 31%;
+        animation: blinkingRed 0.8s infinite;
+        color: red;
+    }
+
+   &__skill-mortgage {
+        font-size: 2.5rem;
+        margin-left: 10%;
+        position: absolute;
+        top: 7%;
+    }
+    
+    &__skill-web-dev {
+        position: absolute;
+        top: 13%;
+        right: 10%;
+        font-size: 2.5rem;
+    }
+    
+    &__myPic {
+        margin-top: -25px;
+        margin-right: 35px;
+        border-radius: 8px;
+    }
+    &__title {
+        font-size: 2rem;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+        filter: blur(0px) opacity(.9);
+        
+    }
+}
+
+@keyframes blinkingWhite {
+    0%{     color: white;    }
+    49%{    color: transparent; }
+    50%{    color: transparent; }
+    99%{    color: transparent;  }
+    100%{   color: white;    }
+}
+@keyframes blinkingRed {
+    0%{     color: red;    }
+    49%{    color: transparent; }
+    50%{    color: transparent; }
+    99%{    color: transparent;  }
+    100%{   color: red;    }
+}
