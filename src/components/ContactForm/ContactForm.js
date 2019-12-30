@@ -13,8 +13,6 @@ export default class ContactForm extends Component {
         let user_telephone = e.target.user_telephone.value;
         let message = e.target.message.value;
         let reason = e.target.selectorReason.value;
-        console.log('the values are:', user_name, user_email, message);
-
         
 
         emailjs.send('portfolio-contact', 'contact_form', {user_name, user_email, user_telephone, reason, message}, 'user_jXBhIUn5sDqtvzmD9FKA6')
@@ -62,11 +60,6 @@ export default class ContactForm extends Component {
                     </div>
                     <button className="contact__button">Send</button>
                 </form> 
-                {/* <form action="?" method="POST">
-                    <div class="g-recaptcha" data-sitekey="6LclasoUAAAAAPEO3KKkAR5HQXz0OR7aD_zZCtC-"></div>
-                    <br/>
-                    <input type="submit" value="Submit"></input>
-                </form> */}
             </div>
         );
     }
