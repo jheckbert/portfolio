@@ -6,6 +6,8 @@ import instagram from '../images/instagram_logo.jpeg';
 import linkedin from '../images/linkedin.png';
 import stackover from '../images/stackover_logo.jpeg';
 import twitter from '../images/twitter_logo.jpeg';
+import download from '../images/download-icon.jpg';
+import resume from '../images/Heckbert-John-Resume-V2.doc';
 
 // import styling
 import './Footer.scss';
@@ -20,6 +22,7 @@ class Footer extends Component {
                     <a className="footer__sm-twitter" href="https://twitter.com/jheckbert" target="blank"><img src={twitter} alt="twitter logo" width="25" /></a>
                     <a className="footer__sm-instagram" href="https://instagram.com/johnheckbert" target="blank"><img src={instagram} alt="instagram logo" width="25" /></a>
                     <a className="footer__sm-linkedin" href="https://linkedin.com/in/johnheckbert" target="blank"><img src={linkedin} alt="linkedin logo" width="25" /></a>
+                    <a className="footer__sm-resume" href={resume} download target="blank"><img src={download} alt="download icon" width="25"></img></a>
                 </div>
                 <div className="footer__copywrite">
                     <p>@ John Heckbert, 2019</p>
