@@ -1,8 +1,5 @@
 .finsrvcs {
 
-    
-                
-    
     &__container {
         display: flex;
         flex-direction: row;
@@ -10,7 +7,6 @@
         background: linear-gradient(217deg, rgba(203, 210, 218, 0.747), rgba(60, 99, 228, 0) 70.71%), 
                     linear-gradient(127deg, rgba(25, 83, 150, 0.8), rgb(33, 157, 105) 70.71%), 
                     linear-gradient(336deg, rgba(243, 80, 4, 0.8), rgba(25, 83, 150, 0.8) 70.71%); 
-        margin-top: -20px;
 
         
     }
@@ -21,7 +17,6 @@
         flex-wrap: wrap;
         justify-content: space-around;
         width: 100%;
-        height: 800px;
         background: linear-gradient(217deg, rgba(203, 210, 218, 0.747), rgba(60, 99, 228, 0) 70.71%), 
                     linear-gradient(127deg, rgba(25, 83, 150, 0.8), rgb(33, 157, 105) 70.71%), 
                     linear-gradient(336deg, rgba(243, 80, 4, 0.8), rgba(25, 83, 150, 0.8) 70.71%); 
@@ -30,6 +25,22 @@
 
     }
 
+    @media screen and (max-width: 599px) {
+        &__box {
+            width: 75%;
+            height: 250px;
+            color: black;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            margin-top: 5%;
+            background: linear-gradient(217deg, rgba(203, 210, 218, 0.747), rgba(60, 99, 228, 0) 70.71%), 
+                        linear-gradient(127deg, rgba(223, 232, 242, 0.8), rgba(90, 160, 224, 0) 70.71%), 
+                        linear-gradient(336deg, rgba(108, 108, 118, 0.8), rgba(0, 0, 255, 0) 70.71%);
+            opacity: 100%;
+            
+        }}
+    
+    @media screen and (min-width: 600px) {
     &__box {
         width: 35%;
         height: 250px;
@@ -42,11 +53,26 @@
                     linear-gradient(336deg, rgba(108, 108, 118, 0.8), rgba(0, 0, 255, 0) 70.71%);
         opacity: 100%;
         
-    }
+    }}
 
-    &__title {
+    @media screen and (max-width: 599px) {
+    &__box-title {
         font-size: 2rem;
-    }
+        margin-top: -50px;
+    }}
+    
+
+    @media screen and (min-width: 600px) {
+    &__box-title {
+        font-size: 2.5rem;
+        margin-top: -50px;
+    }}
+    
+    @media screen and (min-width: 904px) {
+    &__box-title {
+        font-size: 3rem;
+        margin-top: -50px;
+    }}
 
     &__banner {
         display: flex;
@@ -55,34 +81,70 @@
         width: 100%;
         height: px;
         color: black;
-        position: absolute;
-        top: 2100px; 
     
     }
 
-    &__box-title {
-        font-size: 2.5rem;
+    @media screen and (max-width: 600px) {
+    &__title {
+        font-size: 2rem;
         color: black;
         opacity: 100%;
         width: 100%;
-    }
+    }}
 
+    @media screen and (min-width: 601px) and (max-width: 904px) {
+    &__title {
+        font-size: 1.5rem;
+        color: black;
+        opacity: 100%;
+        width: 100%;
+    }}
+      
+    @media screen and (min-width: 904px) {
+    &__title {
+        font-size: 2rem;
+        color: black;
+        opacity: 100%;
+        width: 100%;
+    }}
+    
+    @media screen and (max-width: 600px) {
+    &__box-content {
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 1.15rem;
+        color: midnightblue;
+    }}
+    
+    @media screen and (min-width: 600px) and (max-width: 904px) {
+    &__box-content {
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: .9rem;
+        color: midnightblue;
+    }}
+    
+    @media screen and (min-width: 905px) {
     &__box-content {
         margin-left: 5%;
         margin-right: 5%;
         font-size: 1.25rem;
         color: midnightblue;
-    }
+    }}
 
+    @media screen and (max-width: 599px) {
+    &__box-placement {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }}
 
-    @media screen and (min-width: 1400px) {
+    @media screen and (min-width: 600px) {
     &__box-placement {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
-        position: relative;
-        top: -750px;
     }}
 }
 

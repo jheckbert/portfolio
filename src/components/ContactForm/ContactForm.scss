@@ -26,14 +26,17 @@
         flex-direction: row;
         margin-bottom: 10px;
     }
-    
+
+    @media screen and (min-width: 768px) {
     &__name-label {
         font-size: larger;
         float:left;
-        width: 50%;
+        width: 35%;
         text-align:right;
         margin-right:15px;
-    }
+    }}
+
+    @media screen and (min-width: 768px) {
     &__name-field {   
         display: block;
         box-sizing: border-box;
@@ -42,10 +45,10 @@
         height: 25px;
         font-size: large;
         background-color: lightyellow;
-        margin-right: 30%;
+        margin-right: 20%;
         float: left;
-        width: 20%;
-    }
+        width: 30%;
+    }}
     
     &__email {
         display: flex;
@@ -53,13 +56,16 @@
         margin-bottom: 10px;
     }
     
+    @media screen and (min-width: 768px) {
     &__email-label {
         font-size: larger;
         float:left;
-        width: 50%;
+        width: 35%;
         text-align:right;
         margin-right:15px;
-    }
+    }}
+
+    @media screen and (min-width: 768px) {
     &__email-field {   
         display: block;
         box-sizing: border-box;
@@ -68,10 +74,10 @@
         height: 25px;
         font-size: large;
         background-color: lightyellow;
-        margin-right: 30%;
+        margin-right: 20%;
         float: left;
-        width: 20%;
-    }
+        width: 30%;
+    }}
    
     &__telephone {
         display: flex;
@@ -79,13 +85,16 @@
         margin-bottom: 10px;
     }
     
+    @media screen and (min-width: 768px) {
     &__telephone-label {
         font-size: larger;
         float:left;
-        width: 50%;
+        width: 35%;
         text-align:right;
         margin-right:15px;
-    }
+    }}
+
+    @media screen and (min-width: 768px) {
     &__telephone-field {   
         display: block;
         box-sizing: border-box;
@@ -94,10 +103,10 @@
         height: 25px;
         font-size: large;
         background-color: lightyellow;
-        margin-right: 30%;
+        margin-right: 20%;
         float: left;
-        width: 20%;
-    }
+        width: 30%;
+    }}
 
     &__selector {
         display: flex;
@@ -105,13 +114,16 @@
         margin-bottom: 10px;
     }
     
+    @media screen and (min-width: 768px) {
     &__selector-label {
         font-size: larger;
         float:left;
-        width: 50%;
+        width: 35%;
         text-align:right;
         margin-right:15px;
-    }
+    }}
+
+    @media screen and (min-width: 768px) {
     &__selector-field {   
         display: block;
         box-sizing: border-box;
@@ -120,10 +132,10 @@
         height: 25px;
         font-size: large;
         background-color: lightyellow;
-        margin-right: 30%;
+        margin-right: 20%;
         float: left;
-        width: 20%;
-    }
+        width: 30%;
+    }}
 
     &__message {
         display: flex;
@@ -131,14 +143,17 @@
         margin-bottom: 10px;
     }
     
+    @media screen and (min-width: 768px) {
     &__message-label {
         font-size: larger;
         float:left;
-        width: 50%;
+        width: 35%;
         text-align:right;
         margin-right:15px;
-    }
-    &__message-field {   
+    }}
+
+    @media screen and (min-width: 768px) {
+        &__message-field {   
         display: block;
         box-sizing: border-box;
         border: 1px black solid;
@@ -146,14 +161,14 @@
         height: 75px;
         font-size: large;
         background-color: lightyellow;
-        margin-right: 30%;
+        margin-right: 20%;
         float: left;
-        width: 20%;
-    }
+        width: 30%;
+    }}
 
     &__button {
         width: 250px;
-        margin-left: 40%;
+        margin-left: 30%;
         background-color: lightyellow;
         color: midnightblue;
         font-size: 24px;

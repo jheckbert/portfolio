@@ -1,13 +1,20 @@
 .footer {
-    
 
+    @media screen and (max-width: 599px) {
+    &__container { 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+    }}
+    
+    @media screen and (min-width: 600px) {
     &__container { 
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         background-color: white;
-        height: 75px;
-    }
+    }}
 
     &__sm-links {
         display: flex;

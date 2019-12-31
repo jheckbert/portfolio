@@ -25,10 +25,10 @@ class Capstone extends Component {
                             By asking six to eight questions, I am able to provide a rough estimate to the user about what rate they
                             can expect to pay on their mortgage.
                         </p>
-                        <img className="capstone__scr-image" src={capstoneIntro} alt="the opening screen from the capstone" width="550" />
+                        <img className="capstone__scr-image" src={capstoneIntro} alt="the opening screen from the capstone" />
                     </div>
                     <div className="capstone__scr-result">
-                        <img className="capstone__scr-image" src={capstoneResults} alt="the results screen from the capstone" width="550" />
+                        <img className="capstone__scr-image" src={capstoneResults} alt="the results screen from the capstone" />
                         <p>
                             The information provided by the user is then processed through a set of business rules on an Express Node server
                             and an estimated rate range and three recommendations unique to their situation are offered to help them maximize their

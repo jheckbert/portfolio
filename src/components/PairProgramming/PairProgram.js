@@ -22,7 +22,7 @@ export default class PairProgram extends Component {
                             </p>
                         </div>
                         <div className="team-prog__slide">
-                            <img src = {slide} alt = "slide shot of our paired programming challenge" width = "550" />
+                            <img className="team-prog__slide-shot" src = {slide} alt = "slide shot of our paired programming challenge" />
                         </div>
                     </div>     
             </div>
