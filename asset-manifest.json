@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.0b9b23b4.chunk.css",
+    "main.js": "/portfolio/static/js/main.92bd0833.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.92bd0833.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.680679b4.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.680679b4.js.map",
+    "static/js/2.ba733613.chunk.js": "/portfolio/static/js/2.ba733613.chunk.js",
+    "static/js/2.ba733613.chunk.js.map": "/portfolio/static/js/2.ba733613.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.6d4b6045b8fe0b556899743aafedd336.js": "/portfolio/precache-manifest.6d4b6045b8fe0b556899743aafedd336.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.0b9b23b4.chunk.css.map": "/portfolio/static/css/main.0b9b23b4.chunk.css.map",
+    "static/js/2.ba733613.chunk.js.LICENSE": "/portfolio/static/js/2.ba733613.chunk.js.LICENSE",
+    "static/media/Heckbert-John-Resume-V2.doc": "/portfolio/static/media/Heckbert-John-Resume-V2.60fd2330.doc",
+    "static/media/MyPicture.png": "/portfolio/static/media/MyPicture.25a11fe7.png",
+    "static/media/PairProgrammingProject.png": "/portfolio/static/media/PairProgrammingProject.fdea15de.png",
+    "static/media/Header.scss": "/portfolio/static/media/Toronto-skyline-sunrise.6e3cc538.jpg",
+    "static/media/capstone-opening.png": "/portfolio/static/media/capstone-opening.fd0146d2.png",
+    "static/media/capstone-results.png": "/portfolio/static/media/capstone-results.d1fa89b9.png",
+    "static/media/download-icon.jpg": "/portfolio/static/media/download-icon.3dd4da78.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.680679b4.js",
+    "static/js/2.ba733613.chunk.js",
+    "static/css/main.0b9b23b4.chunk.css",
+    "static/js/main.92bd0833.chunk.js"
+  ]
+}
