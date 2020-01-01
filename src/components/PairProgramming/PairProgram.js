@@ -7,6 +7,7 @@ import './PairProgramming.scss';
 import slide from '../images/PairProgrammingProject.png';
 
 export default class PairProgram extends Component {
+    
     render() {
         return (
             <div className="team-prog">

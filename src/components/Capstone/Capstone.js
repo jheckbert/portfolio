@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 // import styling
 import './Capstone.scss';
 
-// import images
+// import image
 import capstoneIntro from '../images/capstone-opening.png';
 import capstoneResults from '../images/capstone-results.png';
 

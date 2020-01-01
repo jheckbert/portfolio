@@ -13,6 +13,7 @@ import resume from '../images/Heckbert-John-Resume-V2.doc';
 import './Footer.scss';
 
 class Footer extends Component {
+    
     render() {
         return (
             <div className="footer__container">
