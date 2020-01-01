@@ -5,7 +5,7 @@ import emailjs from 'emailjs-com';
 import './ContactForm.scss';
 
 export default class ContactForm extends Component {
-
+    
     sendEmail(e) {
         e.preventDefault();
         let user_name = e.target.user_name.value;
@@ -14,8 +14,9 @@ export default class ContactForm extends Component {
         let message = e.target.message.value;
         let reason = e.target.selectorReason.value;
         
+        let user = process.env.REACT_APP_EMAILJS_USER;
 
-        emailjs.send('portfolio-contact', 'contact_form', {user_name, user_email, user_telephone, reason, message}, 'user_jXBhIUn5sDqtvzmD9FKA6')
+        emailjs.send('portfolio-contact', 'contact_form', {user_name, user_email, user_telephone, reason, message}, user)
         .then((result) => {
           console.log(result.text);
         }, (error) => {
