@@ -127,8 +127,8 @@
     }}
     &__myPic:hover {
         transform: scaleX(-1);
-        transform: rotate(180deg);
-        animation: spinningPic 0.2s infinite;
+        // transform: rotate(180deg);
+        animation: spinningPic 0.2s;
 
     }
 
@@ -169,12 +169,12 @@
     100%{   color: red;    }
 }
 @keyframes spinningPic {
-    0%{     transform: rotate(60deg); }
-    20%{    transform: rotate(120deg); }
-    40%{    transform: rotate(180deg); }  
-    60%{    transform: rotate(2400deg); }
-    80%{    transform: rotate(300deg); }
-    100%{   transform: rotate(360deg); }
+    0%{     transform: scaleX(-.33); }
+    20%{    transform: scaleX(-.66) }
+    40%{    transform: scaleX(-1); }  
+    60%{    transform: scaleX(.66); }
+    80%{    transform: scaleX(.33); }
+    100%{   transform: rotate(0); }
 }
 @keyframes blinkingWord {
     0%{     color: black;    }
