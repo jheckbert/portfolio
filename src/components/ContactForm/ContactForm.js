@@ -41,7 +41,7 @@ export default class ContactForm extends Component {
                     </div>
                     <div className="contact__telephone">
                         <label className="contact__telephone-label">Telephone</label>
-                        <input className="contact__telephone-field" type="number" name="user_telephone" />
+                        <input className="contact__telephone-field" type="number" name="user_telephone" min="1000000000" max="9999999999"/>
                     </div>
                     <div className="contact__selector">
                     <   label className="contact__selector-label" htmlFor="selectorReason">Reason for reaching out</label>
