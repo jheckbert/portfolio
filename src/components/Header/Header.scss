@@ -66,14 +66,23 @@
         margin-left: 10%;
         position: absolute;
         top: 7%;
+    }
+    &__skill-mortgage:hover {
+        font-size: 2.5rem;
+        animation: blinkingWord 0.8s infinite;
     }}
         
-        @media screen and (min-width: 768px) { 
+    @media screen and (min-width: 768px) { 
     &__skill-mortgage {
         font-size: 2.5rem;
         margin-left: 10%;
         position: absolute;
         top: 7%;
+    }
+    &__skill-mortgage:hover {
+        font-size: 3.5rem;
+        animation: blinkingWord 0.8s infinite;
+
     }}
  
     
@@ -83,7 +92,12 @@
         top: 13%;
         right: 10%;
         font-size: 1.5rem;
+    }
+    &__skill-web-dev:hover {
+        font-size: 2.5rem;
+        animation: blinkingWord 0.8s infinite;
     }}
+
     
     
     @media screen and (min-width: 768px) { 
@@ -92,7 +106,12 @@
         top: 13%;
         right: 10%;
         font-size: 2.5rem;
+    }
+    &__skill-web-dev:hover {
+        font-size: 3.5rem;
+        animation: blinkingWord 0.8s infinite;
     }}
+
 
     @media screen and (max-width: 767px) { 
         &__myPic {
@@ -156,4 +175,11 @@
     60%{    transform: rotate(2400deg); }
     80%{    transform: rotate(300deg); }
     100%{   transform: rotate(360deg); }
+}
+@keyframes blinkingWord {
+    0%{     color: black;    }
+    25%{    color: transparent; }
+    50%{    color: black; }
+    75%{    color: transparent;  }
+    100%{   color: black;    }
 }
