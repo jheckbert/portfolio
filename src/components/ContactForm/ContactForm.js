@@ -6,6 +6,7 @@ import './ContactForm.scss';
 
 export default class ContactForm extends Component {
     
+
     sendEmail(e) {
         e.preventDefault();
         let user_name = e.target.user_name.value;
@@ -19,10 +20,22 @@ export default class ContactForm extends Component {
         emailjs.send('portfolio-contact', 'contact_form', {user_name, user_email, user_telephone, reason, message}, user)
         .then((result) => {
           console.log(result.text);
+          // clear the form
+            let clearInputName = document.querySelector('.contact__name-field');
+            clearInputName.value = " ";
+            let clearInputEmail = document.querySelector('.contact__email-field');
+            clearInputEmail.value = " ";
+            let clearInputTelephone = document.querySelector('.contact__telephone-field');
+            clearInputTelephone.value = "";
+            let clearInputSelector = document.querySelector('.contact__selector-field');
+            clearInputSelector.value = " ";
+            let clearInputMessage = document.querySelector('.contact__message-field');
+            clearInputMessage.value = "Thank you for your query! ";
+
         }, (error) => {
             console.log(error.text);
         });
-        
+
   }
 
   
