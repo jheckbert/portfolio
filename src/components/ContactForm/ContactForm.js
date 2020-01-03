@@ -15,6 +15,8 @@ export default class ContactForm extends Component {
         let reason = e.target.selectorReason.value;
         
         let user = process.env.REACT_APP_EMAILJS_USER;
+        console.log(process.env);
+        console.log(user);
 
         emailjs.send('portfolio-contact', 'contact_form', {user_name, user_email, user_telephone, reason, message}, user)
         .then((result) => {
