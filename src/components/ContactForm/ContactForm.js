@@ -22,6 +22,7 @@ export default class ContactForm extends Component {
         }, (error) => {
             console.log(error.text);
         });
+        
   }
 
   
@@ -60,7 +61,7 @@ export default class ContactForm extends Component {
                         <label className="contact__message-label">Message</label>
                         <textarea className="contact__message-field" name="message" required/>
                     </div>
-                    <button className="contact__button">Send</button>
+                    <button className="contact__button" name="contact-button">Send</button>
                 </form> 
             </div>
         );
