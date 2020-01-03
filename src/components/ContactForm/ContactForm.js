@@ -7,7 +7,7 @@ import './ContactForm.scss';
 export default class ContactForm extends Component {
     
     sendEmail(e) {
-        // e.preventDefault();
+        e.preventDefault();
         let user_name = e.target.user_name.value;
         let user_email = e.target.user_email.value;
         let user_telephone = e.target.user_telephone.value;
