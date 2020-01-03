@@ -7,7 +7,7 @@ import linkedin from '../images/linkedin.png';
 import stackover from '../images/stackover_logo.jpeg';
 import twitter from '../images/twitter_logo.jpeg';
 import download from '../images/download-icon.jpg';
-import resume from '../images/Heckbert-John-Resume-V2.doc';
+import resume from '../images/Heckbert-John-Resume-V2.pdf';
 
 // import styling
 import './Footer.scss';

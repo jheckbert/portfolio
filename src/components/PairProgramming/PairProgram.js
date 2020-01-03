@@ -15,7 +15,7 @@ export default class PairProgram extends Component {
                     <div className="team-prog__container">  
                         <div className="team-prog__intro">
                             <p>
-                                My partner - <a className="team-prog__jtang" href="https://github.com/jtang257">Jonathan Tang</a> - and I choose to build a corporate lingo bingo game for our paired programming challenge. 
+                                My partner - <a className="team-prog__jtang" href="https://github.com/jtang257">Jonathan Tang</a> - and I chose to build a corporate lingo bingo game for our paired programming challenge. 
                                 We sourced our background data from 'https://corporatebs-generator.sameerkumar.website/'. 
                             </p>
                             <p>

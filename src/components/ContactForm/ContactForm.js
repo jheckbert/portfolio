@@ -7,7 +7,7 @@ import './ContactForm.scss';
 export default class ContactForm extends Component {
     
     sendEmail(e) {
-        e.preventDefault();
+        // e.preventDefault();
         let user_name = e.target.user_name.value;
         let user_email = e.target.user_email.value;
         let user_telephone = e.target.user_telephone.value;
@@ -15,8 +15,6 @@ export default class ContactForm extends Component {
         let reason = e.target.selectorReason.value;
         
         let user = process.env.REACT_APP_EMAILJS_USER;
-        console.log(process.env);
-        console.log(user);
 
         emailjs.send('portfolio-contact', 'contact_form', {user_name, user_email, user_telephone, reason, message}, user)
         .then((result) => {
@@ -35,19 +33,19 @@ export default class ContactForm extends Component {
                     {/* <input type="hidden" name="contact_number" /> */}
                     <div className="contact__name">
                         <label className="contact__name-label">Name</label>
-                        <input className="contact__name-field" type="text" name="user_name" />
+                        <input className="contact__name-field" type="text" name="user_name" required />
                     </div>
                     <div className="contact__email"> 
                         <label className="contact__email-label">Email</label>
-                        <input className="contact__email-field" type="email" name="user_email" />
+                        <input className="contact__email-field" type="email" name="user_email" required/>
                     </div>
                     <div className="contact__telephone">
                         <label className="contact__telephone-label">Telephone</label>
-                        <input className="contact__telephone-field" type="number" name="user_telephone" min="1000000000" max="9999999999"/>
+                        <input className="contact__telephone-field" type="number" name="user_telephone" required/>
                     </div>
                     <div className="contact__selector">
                     <   label className="contact__selector-label" htmlFor="selectorReason">Reason for reaching out</label>
-                        <select className="contact__selector-field" id="selectorReason">
+                        <select className="contact__selector-field" id="selectorReason" required>
                             <option>Please select one of the following</option>
                             <option value="Hiring">Hiring a web developer</option>
                             <option value="Contracting">Contracting a web developer</option>
@@ -60,7 +58,7 @@ export default class ContactForm extends Component {
                     </div>
                     <div className="contact__message">
                         <label className="contact__message-label">Message</label>
-                        <textarea className="contact__message-field" name="message" />
+                        <textarea className="contact__message-field" name="message" required/>
                     </div>
                     <button className="contact__button">Send</button>
                 </form> 
