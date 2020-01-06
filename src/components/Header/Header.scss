@@ -174,7 +174,7 @@
     40%{    transform: scaleX(-1); }  
     60%{    transform: scaleX(.66); }
     80%{    transform: scaleX(.33); }
-    100%{   transform: rotate(0); }
+    100%{   transform: rotate(-.1); }
 }
 @keyframes blinkingWord {
     0%{     color: black;    }
