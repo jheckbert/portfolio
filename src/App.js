@@ -22,6 +22,8 @@ export default function App() {
     <div className="App">
       <Helmet>
           <meta charSet="utf-8" />
+          <meta> name="description" content="Exciting New Web Developer in York Region"</meta>
+
           <meta name="keywords" content="'web development', 'web developer', 'York Region', GTA, 'mortgage broker', mortgage'" />
           <title>John Heckbert - Exciting New Web Developer in York Region</title>
       </Helmet>
