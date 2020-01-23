@@ -63,10 +63,10 @@ export default class ContactForm extends Component {
                             <option>Please select one of the following</option>
                             <option value="Hiring">Hiring a web developer</option>
                             <option value="Contracting">Contracting a web developer</option>
-                            <option value="Residential">Looking for a residential mortgage</option>
+                            {/* <option value="Residential">Looking for a residential mortgage</option>
                             <option value="Commercial">Need a commercial mortgage</option>
                             <option value="Coaching">Collection agents are hounding me. Need help!</option>
-                            <option value="CreditCard">Want a top quality cash-back credit card</option>
+                            <option value="CreditCard">Want a top quality cash-back credit card</option> */}
                             <option value="Other">I want to discuss something else with you</option>
                         </select>
                     </div>

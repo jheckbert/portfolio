@@ -11,12 +11,12 @@ export default class PairProgram extends Component {
     render() {
         return (
             <div className="team-prog">
-                <h2 className="team-prog__title">Paired Programming Challenge - Corporate Lingo Bingo</h2>
+                <h2 className="team-prog__title">Corporate Lingo Bingo</h2>
                     <div className="team-prog__container">  
                         <div className="team-prog__intro">
                             <p>
-                                My partner - <a className="team-prog__jtang" href="https://github.com/jtang257">Jonathan Tang</a> - and I chose to build a corporate lingo bingo game for our paired programming challenge. 
-                                We sourced our background data from 'https://corporatebs-generator.sameerkumar.website/'. 
+                                My partner - <a className="team-prog__link" href="https://github.com/jtang257">Jonathan Tang</a> - and I chose to build a corporate lingo bingo game for our paired programming challenge. 
+                                We sourced our background data from <a className="team-prog__link" href='https://corporatebs-generator.sameerkumar.website/' download target="blank">'https://corporatebs-generator.sameerkumar.website/'</a>.
                             </p>
                             <p>
                                 Our first choice for a project was the number of incorrect statements and falsehoods shared by a certain US president - but the list was too large.  
