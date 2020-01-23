@@ -21,12 +21,13 @@ export default class Header extends React.Component {
                 <p className="header__blink-red">*</p>
               </header>
               <div className="header__banner">
-                  <h2 className="header__title">My name is John Heckbert, and my passion is designing and developing easy to use technology that teaches true financial literacy so families can achieve their dreams sooner.</h2>
+                  <h2 className="header__title">My name is John Heckbert, and my passion is designing and developing easy to use, secure technology to deliver true financial literacy.</h2>
                   <img className="header__myPic" src={myPic} alt="just me" height='300' />
               </div>
               <div className="header__skill">
-                  <h2 className="header__skill-mortgage">Financial Services</h2>
                   <h2 className="header__skill-web-dev">Web Development</h2>
+                  <h2 className="header__skill-web-sec">Secure Web Infrastructure</h2>
+
               </div>
           </>
         )

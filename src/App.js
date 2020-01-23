@@ -10,9 +10,9 @@ import './App.scss';
 import Capstone from './components/Capstone/Capstone';
 import Header from './components/Header/Header';
 import PairProgram from './components/PairProgramming/PairProgram';
-import FinServices from './components/FinServices/FinServices';
 import ContactForm from './components/ContactForm/ContactForm';
 import Footer from './components/Footer/Footer';
+import EllisDon from './components/EllisDonChalleng/EllisDon';
 
 
 
@@ -26,9 +26,9 @@ export default function App() {
           <title>John Heckbert - Exciting New Web Developer in York Region</title>
       </Helmet>
       <Header />
-      <Capstone />
+      <EllisDon />
       <PairProgram />
-      <FinServices />
+      <Capstone />
       <ContactForm />
       <Footer />
     </div>

@@ -1,4 +1,4 @@
-.team-prog {
+.ellis-don {
 
     background: linear-gradient(217deg, rgba(203, 210, 218, 0.747), rgba(60, 99, 228, 0) 70.71%), 
                 linear-gradient(127deg, rgba(25, 83, 150, 0.8), rgb(33, 157, 105) 70.71%), 
@@ -65,14 +65,15 @@
         margin-right: 10%;
         margin-bottom: 5%;
     }
-    &__link {
-       text-decoration: none;
-       color: black;
-    }
+
+    &__present {
+        text-decoration: none;
+        color: black;
+        }
     
-    &__link:hover {
+    &__present:hover {
+        text-decoration: none;
         color: white;
-     }
-     
- 
+        }
+    
 }

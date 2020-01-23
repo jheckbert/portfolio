@@ -13,7 +13,7 @@ class Capstone extends Component {
         return (
             <>
             <div className="capstone">
-                <h2 className="capstone__title">Capstone project - Mortgage Interest Rate Estimator</h2>
+                <h2 className="capstone__title">Mortgage Interest Rate Estimator</h2>
                 <div className="capstone__scr">
                     <div className="capstone__scr-intro">
                         <p>
