@@ -26,17 +26,20 @@ class Capstone extends Component {
                             can expect to pay on their mortgage.
                         </p>
                         <img className="capstone__scr-image" src={capstoneIntro} alt="the opening screen from the capstone" />
+                        <p>
+                            This project can be seen in production <a href="https://www.angelmortgage.ca/" target="blank">here.</a>
+                        </p>
                     </div>
                     <div className="capstone__scr-result">
                         <img className="capstone__scr-image" src={capstoneResults} alt="the results screen from the capstone" />
                         <p>
-                            The information provided by the user is then processed through a set of business rules on an Express Node server
-                            and an estimated rate range and three recommendations unique to their situation are offered to help them maximize their
+                            The information provided by the user is then processed through a set of business rules on an Express Node server.
+                            An estimated rate range and three recommendations unique to their situation are then presented to help them maximize their
                             opportunity. I also offer them access to a mobile tool they can use to monitor their credit history, and the opportunity to
                             apply for credit - either a mortgage or a credit card - if they are ready to proceed.
                         </p>
                         <p>
-                            I complete the processing by sending them an email reminding them of this information so they can take action on the recommendations.
+                            I complete the process by sending them an email reminding them of this information so they can take action on the recommendations.
                         </p>
                     </div>
                 </div>
