@@ -8,6 +8,7 @@ export default class ContactForm extends Component {
     
 
     sendEmail(e) {
+
         e.preventDefault();
         let user_name = e.target.user_name.value;
         let user_email = e.target.user_email.value;
@@ -74,6 +75,8 @@ export default class ContactForm extends Component {
                         <label className="contact__message-label">Message</label>
                         <textarea className="contact__message-field" name="message" required/>
                     </div>
+                    <div class="g-recaptcha" data-sitekey='6LclasoUAAAAAPEO3KKkAR5HQXz0OR7aD_zZCtC-'></div>
+
                     <button className="contact__button" name="contact-button">Send</button>
                 </form> 
             </div>
