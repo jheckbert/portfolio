@@ -75,7 +75,7 @@ export default class ContactForm extends Component {
                         <label className="contact__message-label">Message</label>
                         <textarea className="contact__message-field" name="message" required/>
                     </div>
-                    <div class="g-recaptcha" data-sitekey='6LclasoUAAAAAPEO3KKkAR5HQXz0OR7aD_zZCtC-'></div>
+                    <div className="g-recaptcha" data-sitekey='6LcIj_oZAAAAAJxwnymeMDgJKTCMvwY5cYUTkuX7'></div>
 
                     <button className="contact__button" name="contact-button">Send</button>
                 </form> 
